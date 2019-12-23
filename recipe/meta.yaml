@@ -1,4 +1,4 @@
-{% set version = '0.15-0' %}
+{% set version = "0.16-0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RSpectra_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RSpectra/RSpectra_{{ version }}.tar.gz
-  sha256: 1ad5698201007044a0420cb10b7c48e94312a8a1d22b9d946d5de1c6743969a9
+  sha256: aaf1cfc9ffe3a4c6684247899924e1c18306971dfef4bae1dc596a2fb42a64a9
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
