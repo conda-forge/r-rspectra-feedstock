@@ -14,7 +14,7 @@ source:
 
 build:
   merge_build_host: true  # [win]
-  number: 3
+  number: 4
   rpaths:
     - lib/R/lib/
     - lib/
@@ -37,14 +37,12 @@ requirements:
     - r-matrix >=1.1_0
     - r-rcpp >=0.11.5
     - r-rcppeigen >=0.3.3.3.0
-    - spectra
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
     - r-matrix >=1.1_0
     - r-rcpp >=0.11.5
     - r-rcppeigen >=0.3.3.3.0
-    - spectra
 
 test:
   commands:
@@ -62,6 +60,7 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
+    - mfansler
 
 # Package: RSpectra
 # Type: Package
