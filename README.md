@@ -3,7 +3,7 @@ About r-rspectra
 
 Home: https://github.com/yixuan/RSpectra
 
-Package license: MPL (>= 2)
+Package license: MPL-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rspectra-feedstock/blob/main/LICENSE.txt)
 
