@@ -12,7 +12,7 @@ source:
   sha256: cba5d3403d6a7d0e27abf6279fbfea6e0d0fe36b28c688bbadb8eafb3841329a
 
 build:
-  number: 2
+  number: 3
   rpaths:
     - lib/R/lib/
     - lib/
@@ -59,7 +59,7 @@ about:
   summary: R interface to the 'Spectra' library <https://spectralib.org/> for large-scale eigenvalue and SVD problems. It is typically used to compute a few eigenvalues/vectors of an n by n matrix, e.g., the k largest eigenvalues, which is usually more efficient than eigen() if k << n. This package provides the 'eigs()'
     function that does the similar job as in 'Matlab', 'Octave', 'Python SciPy' and 'Julia'. It also provides the 'svds()' function to calculate the largest k singular values and corresponding singular vectors of a real matrix. The matrix to be computed on can be dense, sparse, or in the form of an operator defined by the
     user.
-  license_family: MPL
+  license_family: MOZILLA
   license: LICENSE
 
 extra:
